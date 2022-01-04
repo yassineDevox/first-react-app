@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/hello';
-
+import Friend from './components/friend';
+  
 
 ReactDOM.render(
-    HelloWorld(),
+    <Friend />,
   document.getElementById('root')
 );
