@@ -1,3 +1,11 @@
+
 export default function HelloWorld() {
-  return (<h1>hello World</h1>)
+  return (<div>
+   
+    {
+      [1, 2, 3].map(number => (<div>{number}</div>))
+    }
+  </div>
+  );
 }
+
